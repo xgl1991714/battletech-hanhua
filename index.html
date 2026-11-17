@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BATTLETECH 汉化工具</title>
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        overflow: hidden;
+      }
+
+      .boot-splash {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #1d2b4a;
+        font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+
+      .boot-splash img {
+        width: 56px;
+        height: 56px;
+        margin-bottom: 14px;
+      }
+
+      .boot-splash__name {
+        margin-bottom: 18px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .boot-splash__track {
+        width: 180px;
+        height: 4px;
+        overflow: hidden;
+        border-radius: 4px;
+        background: #e8effa;
+      }
+
+      .boot-splash__bar {
+        width: 40%;
+        height: 100%;
+        border-radius: 4px;
+        background: #2469e0;
+        animation: boot-slide 1s ease-in-out infinite;
+      }
+
+      @keyframes boot-slide {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(350%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot-splash">
+        <img src="/image/icon.ico" alt="" />
+        <div class="boot-splash__name">BATTLETECH 汉化工具</div>
+        <div class="boot-splash__track"><div class="boot-splash__bar"></div></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
