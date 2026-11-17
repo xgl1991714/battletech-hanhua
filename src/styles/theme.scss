@@ -1,0 +1,676 @@
+/* 深色主题覆盖。浅色主题沿用现有样式，无需重复定义。 */
+
+/* ---------- 浅色主题：冷灰蓝画布 + 白色卡片 + 蓝色强调 ---------- */
+
+body[data-theme='Light'] {
+  color-scheme: light;
+  background: #fff;
+  color: #1f2937;
+}
+
+body[data-theme='Light'] .main-panel {
+  background: #ffffff;
+  border-top-color: #d9e3f0;
+}
+
+/* 路径选择区 */
+body[data-theme='Light'] .target-selector,
+body[data-theme='Light'] .list-panel {
+  background: #f3f7fc;
+  border-color: #d3dfed;
+}
+
+body[data-theme='Light'] .list-panel .header-stats {
+  background: #f3f7fc;
+  border-color: #d3dfed;
+}
+
+body[data-theme='Light'] .list-panel .file-list-wrapper {
+  background: #ffffff;
+}
+
+body[data-theme='Light'] .target-selector label {
+  color: #334155;
+}
+
+body[data-theme='Light'] .path-display-wrapper {
+  background: #ffffff;
+  border-color: #d3dfed;
+}
+
+body[data-theme='Light'] .path-display-wrapper .path-text {
+  color: #1e293b;
+}
+
+body[data-theme='Light'] .path-display-wrapper .inline-tag.version {
+  background: #eaf2ff;
+  color: #2f5f9e;
+}
+
+body[data-theme='Light'] .path-display-wrapper .inline-tag.platform {
+  background: #e9f7ef;
+  color: #2f6b48;
+}
+
+body[data-theme='Light'] .target-selector .btn-choose {
+  background: #eef4ff;
+  border-color: #cfdcf0;
+  color: #24456f;
+}
+
+body[data-theme='Light'] .target-selector .btn-choose:hover {
+  background: #e3edff;
+  border-color: #b6cbe8;
+  box-shadow: none;
+}
+
+/* 统计、进度、按钮 */
+body[data-theme='Light'] .header-stats .stats,
+body[data-theme='Light'] .list-panel .header-stats .stats {
+  background: #ffffff;
+  border-color: #dfe8f2;
+  color: #475569;
+}
+
+body[data-theme='Light'] .progress-global .progress-track {
+  background: #e6edf7;
+}
+
+body[data-theme='Light'] .progress-global .progress-fill {
+  background: #2f6fed;
+}
+
+body[data-theme='Light'] .progress-global .progress-fill.done {
+  background: #15803d;
+}
+
+body[data-theme='Light'] .progress-global .progress-text {
+  color: #475569;
+}
+
+body[data-theme='Light'] .version-badge {
+  background: #ffffff;
+  border-color: #dfe8f2;
+  color: #475569;
+}
+
+body[data-theme='Light'] .dot.blue {
+  background: #2f6fed;
+}
+
+body[data-theme='Light'] .btn {
+  background: #eef4ff;
+  color: #24406b;
+  box-shadow: none;
+}
+
+body[data-theme='Light'] .btn-outline {
+  background: transparent;
+  border-color: #d7e2f0;
+}
+
+body[data-theme='Light'] .btn-outline:hover {
+  background: #eef5ff;
+  border-color: #b9cde8;
+  box-shadow: none;
+}
+
+body[data-theme='Light'] .btn-success {
+  background: #15803d;
+  color: #fff;
+}
+
+body[data-theme='Light'] .btn-success:hover,
+body[data-theme='Light'] .btn-success:active {
+  background: #166534;
+  box-shadow: none;
+}
+
+body[data-theme='Light'] .btn-success i {
+  color: #bbf7d0;
+}
+
+/* 文件列表 */
+body[data-theme='Light'] .file-row {
+  background: transparent;
+  border-bottom-color: #e1e9f3;
+}
+
+body[data-theme='Light'] .file-row:hover {
+  background: #eef5ff;
+  border-bottom-color: #e1e9f3;
+}
+
+body[data-theme='Light'] .file-name {
+  color: #1e293b;
+}
+
+body[data-theme='Light'] .file-icon {
+  color: #5b7fa8;
+}
+
+body[data-theme='Light'] .folder-tag {
+  background: #eef4fb;
+  color: #355b8a;
+}
+
+body[data-theme='Light'] .empty-state .empty-icon {
+  color: #cbd5e1;
+}
+
+body[data-theme='Light'] .empty-state .empty-text {
+  color: #475569;
+}
+
+body[data-theme='Light'] .empty-state .empty-hint {
+  color: #94a3b8;
+}
+
+body[data-theme='Light'] .status-badge.done {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+body[data-theme='Light'] .status-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+body[data-theme='Light'] .status-badge.processing {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+body[data-theme='Light'] .status-badge.error {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+body[data-theme='Light'] .file-list-wrapper::-webkit-scrollbar-track {
+  background: #eef2f7;
+}
+
+body[data-theme='Light'] .file-list-wrapper::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+
+/* 底部工具条 */
+body[data-theme='Light'] .footer-toolbar {
+  border-top-color: #dce5f1;
+}
+
+body[data-theme='Light'] .footer-toolbar__item {
+  color: #64748b;
+}
+
+body[data-theme='Light'] .footer-toolbar__item:hover {
+  background: #eef5ff;
+  color: #2563eb;
+}
+
+/* 下拉菜单 */
+body[data-theme='Light'] .dropdown-menu {
+  background: #ffffff;
+  border-color: #e2e8f0;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.12);
+}
+
+body[data-theme='Light'] .dropdown-menu__item {
+  color: #475569;
+}
+
+body[data-theme='Light'] .dropdown-menu__item:hover {
+  background: #f2f7ff;
+  color: #2563eb;
+}
+
+body[data-theme='Light'] .dropdown-menu__item i.delete {
+  color: #94a3b8;
+}
+
+/* 原生弹窗 */
+body[data-theme='Light'] .nt-dialog,
+body[data-theme='Light'] .nt-msgbox {
+  background: #ffffff;
+  color: #1f2937;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.18);
+}
+
+body[data-theme='Light'] .nt-dialog__header,
+body[data-theme='Light'] .nt-msgbox__header {
+  color: #111827;
+}
+
+body[data-theme='Light'] .nt-dialog__body,
+body[data-theme='Light'] .nt-msgbox__body {
+  color: #4b5563;
+}
+
+body[data-theme='Light'] .about-dialog .nt-dialog {
+  border-color: #cbd5e1;
+}
+
+body[data-theme='Light'] .about-dialog hr {
+  border: 0;
+  border-top: 1px solid #e5ebf3;
+}
+
+body[data-theme='Light'] .nt-dialog__close {
+  color: #94a3b8;
+}
+
+body[data-theme='Light'] .nt-dialog__close:hover {
+  color: #ef4444;
+  background: #fef2f2;
+}
+
+body[data-theme='Light'] .nt-btn {
+  background: #ffffff;
+  border-color: #d7dfe9;
+  color: #475569;
+}
+
+body[data-theme='Light'] .nt-btn:hover {
+  background: #f3f7fd;
+  border-color: #b9cde8;
+  color: #2563eb;
+}
+
+body[data-theme='Light'] .nt-btn:disabled {
+  background: #f8fafc;
+  border-color: #e5eaf1;
+  color: #cbd5e1;
+}
+
+body[data-theme='Light'] .nt-btn--primary {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #fff;
+}
+
+body[data-theme='Light'] .nt-btn--primary:hover {
+  background: #3b82f6;
+  border-color: #3b82f6;
+}
+
+body[data-theme='Light'] .nt-btn--primary:disabled {
+  background: #93b4ef;
+  border-color: #93b4ef;
+  color: #fff;
+}
+
+body[data-theme='Light'] .update-progress__bar {
+  background: #e8eef6;
+}
+
+body[data-theme='Light'] .update-progress__text {
+  color: #64748b;
+}
+
+body[data-theme='Light'] .change-notes-textarea {
+  background: #f8fafc;
+  border-color: #d7dfe9;
+  color: #64748b;
+}
+
+/* Toast */
+body[data-theme='Light'] .nt-toast {
+  background: #f1f5f9;
+  color: #475569;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.1);
+}
+
+body[data-theme='Light'] .nt-toast--success {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+body[data-theme='Light'] .nt-toast--error {
+  background: #fef2f2;
+  color: #b91c1c;
+}
+
+body[data-theme='Light'] .nt-toast--warning {
+  background: #fffbeb;
+  color: #b45309;
+}
+
+body[data-theme='Light'] .nt-toast--info {
+  background: #f1f5f9;
+  color: #475569;
+}
+
+/* ---------- 深色主题：深蓝黑画布 + 分层卡片 + 蓝色强调 ---------- */
+
+body[data-theme='Dark'] {
+  color-scheme: dark;
+  background: #0f141c;
+  color: #d8e4f2;
+}
+
+body[data-theme='Dark'] .main-panel {
+  background: #0f141c;
+  border-top-color: #243242;
+}
+
+/* ---------- 路径选择区 ---------- */
+body[data-theme='Dark'] .target-selector {
+  background: #161f2b;
+  border-color: #28384b;
+}
+
+body[data-theme='Dark'] .target-selector label {
+  color: #cfe0f4;
+}
+
+body[data-theme='Dark'] .path-display-wrapper {
+  background: #0d141d;
+  border-color: #2c3c50;
+}
+
+body[data-theme='Dark'] .path-display-wrapper .path-text {
+  color: #d8e4f2;
+}
+
+body[data-theme='Dark'] .path-display-wrapper .inline-tag.version {
+  background: #1b3148;
+  color: #9fc9f5;
+}
+
+body[data-theme='Dark'] .path-display-wrapper .inline-tag.platform {
+  background: #173323;
+  color: #9bd6ac;
+}
+
+body[data-theme='Dark'] .target-selector .btn-choose {
+  background: #1c2c40;
+  border-color: #344a63;
+  color: #cfe0f4;
+}
+
+body[data-theme='Dark'] .target-selector .btn-choose:hover {
+  background: #263b54;
+  border-color: #4b6a8e;
+  box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.5);
+}
+
+/* ---------- 统计、进度、按钮 ---------- */
+body[data-theme='Dark'] .list-panel {
+  background: #141d28;
+  border-color: #28384b;
+}
+
+body[data-theme='Dark'] .list-panel .header-stats {
+  background: #192432;
+  border-color: #2d3d51;
+}
+
+body[data-theme='Dark'] .list-panel .file-list-wrapper {
+  background: #141d28;
+}
+
+body[data-theme='Dark'] .header-stats .stats,
+body[data-theme='Dark'] .list-panel .header-stats .stats {
+  background: #1b2634;
+  border-color: #2d3d51;
+  color: #c9d9eb;
+}
+
+body[data-theme='Dark'] .progress-global .progress-track {
+  background: #28374a;
+}
+
+body[data-theme='Dark'] .progress-global .progress-text {
+  color: #b7c9de;
+}
+
+body[data-theme='Dark'] .version-badge {
+  background: #1d2c3e;
+  border-color: #2d3d51;
+  color: #b8cbe2;
+}
+
+body[data-theme='Dark'] .btn {
+  background: #1c2a3b;
+  color: #d8e4f2;
+  box-shadow: none;
+}
+
+body[data-theme='Dark'] .btn-outline {
+  background: transparent;
+  border-color: #34485f;
+}
+
+body[data-theme='Dark'] .btn-outline:hover {
+  background: #24364b;
+  border-color: #4d6a8c;
+  box-shadow: none;
+}
+
+body[data-theme='Dark'] .btn-success {
+  background: #147a3c;
+  color: #fff;
+}
+
+body[data-theme='Dark'] .btn-success:hover {
+  background: #0f6631;
+}
+
+body[data-theme='Dark'] .btn-success i {
+  color: #a9e5bf;
+}
+
+/* ---------- 文件列表 ---------- */
+body[data-theme='Dark'] .file-row {
+  background: transparent;
+  border-bottom-color: #2a3a4d;
+}
+
+body[data-theme='Dark'] .file-row:hover {
+  background: #243448;
+  border-bottom-color: #2a3a4d;
+}
+
+body[data-theme='Dark'] .file-name {
+  color: #e3eefb;
+}
+
+body[data-theme='Dark'] .file-icon {
+  color: #8db9ef;
+}
+
+body[data-theme='Dark'] .folder-tag {
+  background: #26374c;
+  color: #b9d1ea;
+}
+
+body[data-theme='Dark'] .empty-state .empty-icon {
+  color: #3d5470;
+}
+
+body[data-theme='Dark'] .empty-state .empty-text {
+  color: #c6d7ea;
+}
+
+body[data-theme='Dark'] .empty-state .empty-hint {
+  color: #8298b2;
+}
+
+body[data-theme='Dark'] .status-badge.done {
+  background: #173a26;
+  color: #7fe0a1;
+}
+
+body[data-theme='Dark'] .status-badge.pending {
+  background: #4a3a16;
+  color: #ffd98a;
+}
+
+body[data-theme='Dark'] .status-badge.processing {
+  background: #17324f;
+  color: #8fc4ff;
+}
+
+body[data-theme='Dark'] .status-badge.error {
+  background: #4a1f24;
+  color: #ff9a9a;
+}
+
+body[data-theme='Dark'] .file-list-wrapper::-webkit-scrollbar-track {
+  background: #182330;
+}
+
+body[data-theme='Dark'] .file-list-wrapper::-webkit-scrollbar-thumb {
+  background: #354b64;
+}
+
+/* ---------- 底部工具条 ---------- */
+body[data-theme='Dark'] .footer-toolbar {
+  border-top-color: #243242;
+}
+
+body[data-theme='Dark'] .footer-toolbar__item {
+  color: #93a9c2;
+}
+
+body[data-theme='Dark'] .footer-toolbar__item:hover {
+  background: #1d2b3d;
+  color: #7db7ff;
+}
+
+/* ---------- 下拉菜单 ---------- */
+body[data-theme='Dark'] .dropdown-menu {
+  background: #1a2432;
+  border-color: #2f4054;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+}
+
+body[data-theme='Dark'] .dropdown-menu__item {
+  color: #c9d9eb;
+}
+
+body[data-theme='Dark'] .dropdown-menu__item:hover {
+  background: #223247;
+  color: #7db7ff;
+}
+
+body[data-theme='Dark'] .dropdown-menu__item i.delete {
+  color: #6f8198;
+}
+
+/* ---------- 原生弹窗 ---------- */
+body[data-theme='Dark'] .nt-dialog,
+body[data-theme='Dark'] .nt-msgbox {
+  background: #1a2432;
+  color: #d8e4f2;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+}
+
+body[data-theme='Dark'] .nt-dialog__header,
+body[data-theme='Dark'] .nt-msgbox__header {
+  color: #e6eef9;
+}
+
+body[data-theme='Dark'] .nt-dialog__body,
+body[data-theme='Dark'] .nt-msgbox__body {
+  color: #c6d5e8;
+}
+
+body[data-theme='Dark'] .about-dialog .nt-dialog {
+  border-color: #465a73;
+}
+
+body[data-theme='Dark'] .about-dialog hr {
+  border: 0;
+  border-top: 1px solid #2d3d51;
+}
+
+body[data-theme='Dark'] .nt-dialog__close {
+  color: #9fb2c8;
+}
+
+body[data-theme='Dark'] .nt-dialog__close:hover {
+  color: #ff7b7b;
+  background: #263447;
+}
+
+body[data-theme='Dark'] .nt-btn {
+  background: #1d2a3b;
+  border-color: #34465e;
+  color: #d8e4f2;
+}
+
+body[data-theme='Dark'] .nt-btn:hover {
+  background: #243448;
+  border-color: #4b6a8e;
+  color: #8fc4ff;
+}
+
+body[data-theme='Dark'] .nt-btn:disabled {
+  background: #18222f;
+  border-color: #2a394b;
+  color: #66788f;
+}
+
+body[data-theme='Dark'] .nt-btn--primary {
+  background: #2f7de0;
+  border-color: #2f7de0;
+  color: #fff;
+}
+
+body[data-theme='Dark'] .nt-btn--primary:hover {
+  background: #4a91ea;
+  border-color: #4a91ea;
+}
+
+body[data-theme='Dark'] .nt-btn--primary:disabled {
+  background: #2c4a72;
+  border-color: #2c4a72;
+  color: #a8bdd8;
+}
+
+body[data-theme='Dark'] .update-progress__bar {
+  background: #28374a;
+}
+
+body[data-theme='Dark'] .update-progress__text {
+  color: #b7c9de;
+}
+
+body[data-theme='Dark'] .change-notes-textarea {
+  background: #111a24;
+  border-color: #31445a;
+  color: #a9bcd2;
+}
+
+/* ---------- Toast ---------- */
+body[data-theme='Dark'] .nt-toast {
+  background: #1c2938;
+  color: #cddcee;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+}
+
+body[data-theme='Dark'] .nt-toast--success {
+  background: #153223;
+  color: #7fe0a1;
+}
+
+body[data-theme='Dark'] .nt-toast--error {
+  background: #3d1d22;
+  color: #ff9a9a;
+}
+
+body[data-theme='Dark'] .nt-toast--warning {
+  background: #3d2f16;
+  color: #ffd98a;
+}
+
+body[data-theme='Dark'] .nt-toast--info {
+  background: #1c2938;
+  color: #a9bcd2;
+}
+
+/* 列表最后一行不显示分隔线 */
+body[data-theme] .file-row:last-child {
+  border-bottom-color: transparent;
+}
